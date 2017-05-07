@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="http://cdn.bootcss.com/fullPage.js/2.9.4/jquery.fullpage.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/typo.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/fullPage.js/2.9.4/jquery.fullpage.extensions.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<script type="text/javascript">
+$(function() {
+    $('#fullpage').fullpage({
+        'verticalCentered': true,
+        'css3': false,
+        'sectionsColor': ['#254875', '#00FF00', '#254587', '#695684'],
+        anchors: ['page1', 'page2', 'page3', 'page4'],
+        'navigation': true,
+        'navigationPosition': 'right',
+        'navigationTooltips': ['fullPage.js', 'Powerful', 'Amazing', 'Simple'],
+    })
+
+     
+})
+</script>
+
+
+<body>
+<div id="fullpage">
+    <div class="section">
+        <div class="wrapper"><img class="photo" src="img/98c360e2c7d3ee9ac0caf664a0fc9224.png"></div>
+    </div>
+    <div class="section ">
+        <div class="wrapper"><img class="photo" src="img/98c360e2c7d3ee9ac0caf664a0fc9224.png"></div>
+    </div>
+    <div class="section ">
+        <div class="wrapper"><img class="photo" src="img/98c360e2c7d3ee9ac0caf664a0fc9224.png"></div>
+    </div>
+    <div class="section ">
+        <div class="wrapper"><img class="photo" src="img/98c360e2c7d3ee9ac0caf664a0fc9224.png"></div>
+    </div>
+</div>
+</body>
+
+</html>
